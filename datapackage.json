@@ -1,0 +1,51 @@
+{
+  "name": "media-attacks",
+  "title": "Attacks",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "attacks",
+      "path": "attacks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "screenshot",
+            "type": "string",
+            "description": "Path to the relevant screenshot"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "Type of attack (phishing, spearphishing, etc.)"
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country where the attack to place or relevant to the context"
+          },
+          {
+            "name": "deploys",
+            "type": "string",
+            "description": "Malware or tool deployed through the attack"
+          },
+          {
+            "name": "target",
+            "type": "string",
+            "description": "Type of target (activist, journalist, protester, etc.)"
+          },
+          {
+            "name": "target_detail",
+            "type": "number",
+            "description": "Eventual additional details on the target"
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Media related to attacks targeting members of civil society",
+  "repository": "git://github.com/digitalfreedom/media-attacks.git"
+}
