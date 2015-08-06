@@ -23,6 +23,11 @@
             "description": "Type of attack (phishing, spearphishing, etc.)"
           },
           {
+            "name": "date",
+            "type": "date",
+            "description": "Date of the attack"
+          },
+          {
             "name": "country",
             "type": "string",
             "description": "Country where the attack to place or relevant to the context"
