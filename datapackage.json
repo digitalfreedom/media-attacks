@@ -46,7 +46,12 @@
             "name": "target_detail",
             "type": "number",
             "description": "Eventual additional details on the target"
-          }
+          },
+	  {
+            "name": "reference",
+	    "type": "string",
+            "description": "Report or article referencing the target"
+	  }
         ]
       }
     }
